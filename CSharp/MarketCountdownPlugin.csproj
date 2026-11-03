@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>MarketCountdownPlugin</AssemblyName>
+    <RootNamespace>MarketCountdownPlugin</RootNamespace>
+    <Version>1.0.0</Version>
+    <StartupObject>MarketCountdownPlugin.App</StartupObject>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\*.wav" />
+  </ItemGroup>
+
+</Project>

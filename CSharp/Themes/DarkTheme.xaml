@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <!-- Dark Theme Colors -->
+    <SolidColorBrush x:Key="WindowBg">#1E1E1E</SolidColorBrush>
+    <SolidColorBrush x:Key="CardBg">#2D2D2D</SolidColorBrush>
+    <SolidColorBrush x:Key="MarketCardBg">#3D3D3D</SolidColorBrush>
+    <SolidColorBrush x:Key="TextFg">#E0E0E0</SolidColorBrush>
+    <SolidColorBrush x:Key="AccentBrush">#00B4D8</SolidColorBrush>
+    <SolidColorBrush x:Key="SuccessBrush">#4CAF50</SolidColorBrush>
+    <SolidColorBrush x:Key="ErrorBrush">#F44336</SolidColorBrush>
+</ResourceDictionary>
