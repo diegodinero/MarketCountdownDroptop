@@ -1,0 +1,27 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rainmeter runtime
+*.log
+Cache/
+
+# Icon development files
+*.psd
+*.xcf
+*.kra
+
+# Backup files
+*.bak
+*.backup
+~*
+
+# Node (if using build tools)
+node_modules/
