@@ -2,25 +2,32 @@
 
 ## 📍 Where to Find the Project
 
-The complete project with all source code, documentation, and configuration is available at:
+The complete project with all source code, documentation, and configuration is located at:
 
-**GitHub**: https://github.com/diegodinero/MarketCountdownDroptop
+**Local Directory**: `/tmp/MarketCountdownDroptop/`
 
-(You can also clone it locally)
+The project is a fully functional git repository ready to be:
+- Pushed to GitHub
+- Cloned locally
+- Distributed as a ZIP file
+- Installed directly
 
 ## 📥 How to Get the Project
 
-### Option 1: Clone from GitHub (Recommended)
-```bash
-git clone https://github.com/diegodinero/MarketCountdownDroptop.git
-cd MarketCountdownDroptop
-```
+### Option 1: Access from Temporary Directory (Immediate)
+All files are currently in: `/tmp/MarketCountdownDroptop/`
+- Copy the entire directory to your preferred location
+- Or copy just the `MarketCountdown/` folder for installation
 
-### Option 2: Download ZIP
-Visit https://github.com/diegodinero/MarketCountdownDroptop and click "Download ZIP"
+### Option 2: Create Your Own GitHub Repository (Recommended)
+The project includes a complete git repository. You can:
+1. Copy `/tmp/MarketCountdownDroptop/` to your computer
+2. Create a new repository on GitHub
+3. Push the code from your local copy
+4. Share the GitHub link with others
 
-### Option 3: Use Locally (if already downloaded)
-Just navigate to the folder containing this project
+### Option 3: Download as ZIP
+You can copy the entire `/tmp/MarketCountdownDroptop/` directory and create a ZIP file
 
 ## 🚀 Quick Installation
 
@@ -113,7 +120,7 @@ Displays forex market status in your Windows taskbar:
 
 ## 🔗 Links
 
-- **GitHub Repository**: https://github.com/diegodinero/MarketCountdownDroptop
+- **Local Project Directory**: `/tmp/MarketCountdownDroptop/`
 - **Original App**: https://github.com/diegodinero/MarketCountdownStandalone
 - **Droptop Website**: https://www.droptopfour.com
 - **Droptop Discord**: https://discord.gg/droptop
