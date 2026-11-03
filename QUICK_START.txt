@@ -1,0 +1,179 @@
+╔════════════════════════════════════════════════════════════════╗
+║     MARKET COUNTDOWN - DROPTOP FOUR COMMUNITY APP              ║
+║                    QUICK START GUIDE                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+📦 WHAT'S INCLUDED
+═══════════════════════════════════════════════════════════════
+
+MarketCountdown/          Main app folder (INSTALL THIS)
+├── CustomApp.ini         Main app config
+├── Folder/               Market submenus (London, NY, Sydney, Tokyo)
+├── @Resources/Scripts/   Lua calculation scripts
+├── Icons/                App icons (you can replace these)
+└── Variables.inc         YOUR SETTINGS (edit this file!)
+
+README.md                 Full documentation
+INSTALLATION.md           Step-by-step setup guide
+SETUP_GUIDE.md           Configuration & customization
+DEVELOPER_GUIDE.md       For advanced customization
+
+
+🚀 3-STEP INSTALLATION
+═══════════════════════════════════════════════════════════════
+
+1. COPY MarketCountdown folder to:
+   C:\Program Files\Droptop Four\@Resources\GlobalSettings\0_Community\CommunityApps\
+
+2. RESTART Droptop:
+   - Right-click Droptop in taskbar
+   - Click "Exit"
+   - Reopen Droptop
+   - Wait 10 seconds
+
+3. ENABLE THE APP:
+   - Click Droptop settings (gear icon)
+   - Go to "Apps"
+   - Check "Market Countdown"
+   - Done! Icon appears in Droptop bar
+
+
+⚙️ BASIC CONFIGURATION
+═══════════════════════════════════════════════════════════════
+
+Edit: MarketCountdown/Variables.inc
+
+Key settings:
+  Use24Hour=1         (1 = 24-hour format, 0 = 12-hour)
+  IsDarkMode=0        (1 = dark, 0 = light)
+  ShowAUD=1           (Change to 0 to hide Australian Dollar)
+  ShowEUR=1           (Change to 0 to hide Euro)
+  etc...
+
+Most common change: Time format
+  Use24Hour=1  →  shows 13:45
+  Use24Hour=0  →  shows 1:45 PM
+
+
+📖 DOCUMENTATION
+═══════════════════════════════════════════════════════════════
+
+First Time Setup?
+  → Start with: SETUP_GUIDE.md
+
+Installation Problems?
+  → Read: INSTALLATION.md
+
+Want to Understand How It Works?
+  → See: README.md
+
+Need Advanced Customization?
+  → Check: DEVELOPER_GUIDE.md
+
+
+📊 MARKET HOURS (ALL TIMES LOCAL)
+═══════════════════════════════════════════════════════════════
+
+London      08:00–17:00 (GMT/UTC)
+New York    08:00–17:00 (EST)
+Sydney      07:00–16:00 (AEDT)
+Tokyo       09:00–11:30 & 12:30–15:30 (JST)
+
+All markets closed weekends & holidays
+
+
+💡 HOW TO USE
+═══════════════════════════════════════════════════════════════
+
+Click app icon in Droptop bar
+  ↓
+See menu: London | New York | Sydney | Tokyo | ⚙ Settings
+  ↓
+Click a market to see:
+  • Status (OPEN/CLOSED)
+  • Current time
+  • Market hours
+  • Time until open / Time since open
+  • Progress % through session
+
+
+❓ QUICK TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+App doesn't appear?
+  → Check folder is in correct location
+  → Restart Droptop completely
+  → See INSTALLATION.md for details
+
+Wrong market status?
+  → Verify Windows timezone (Settings → Time & language)
+  → Ensure system time is synchronized
+  → Restart the app
+
+Wrong time displayed?
+  → Edit Use24Hour in Variables.inc
+  → Toggle the setting to refresh
+  → Restart Droptop
+
+
+🔧 CUSTOM ICONS
+═══════════════════════════════════════════════════════════════
+
+Replace PNG files in:
+  MarketCountdown/Icons/          (main menu icons)
+  MarketCountdown/Folder/Icons/   (submenu icons)
+
+Requirements:
+  • Format: PNG
+  • Size: 32x32 pixels
+  • Color: White (#FFFFFF)
+  • Background: Transparent
+
+Find icons at: flaticon.com or create your own
+
+
+✨ TIPS
+═══════════════════════════════════════════════════════════════
+
+Hide Unwanted Currencies
+  Set Show[CURRENCY]=0 in Variables.inc
+  Example: ShowEUR=0 hides European Dollar news
+
+Use Dark Mode
+  Set IsDarkMode=1 in Variables.inc
+
+Monitor Trading Efficiently
+  Keep only markets you trade (hide others)
+  Reduces visual clutter
+
+
+📞 NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+Read the Docs First
+  • INSTALLATION.md - Setup issues
+  • SETUP_GUIDE.md - Configuration help
+  • README.md - Feature questions
+
+Join Community
+  • Droptop Discord: https://discord.gg/droptop
+  • Rainmeter Forum: https://forum.rainmeter.net
+
+Check Original App
+  • https://github.com/diegodinero/MarketCountdownStandalone
+
+
+🎉 YOU'RE READY!
+═══════════════════════════════════════════════════════════════
+
+Next steps:
+  1. Install the app (follow 3-step installation)
+  2. Customize Variables.inc if needed
+  3. Add custom icons (optional)
+  4. Start monitoring markets!
+
+Questions? See README.md or SETUP_GUIDE.md
+
+
+═══════════════════════════════════════════════════════════════
+Version: 1.0 | Droptop 4.0+ | Rainmeter 4.3+ | Windows 7+
